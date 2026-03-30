@@ -1,0 +1,163 @@
+Kategorie,Anweisung
+Bit Logic,LD
+Bit Logic,LDN
+Bit Logic,AND
+Bit Logic,ANDN
+Bit Logic,OR
+Bit Logic,ORN
+Bit Logic,LDI
+Bit Logic,LDNI
+Bit Logic,ANDI
+Bit Logic,ANDNI
+Bit Logic,ORI
+Bit Logic,ORNI
+Bit Logic,AND(
+Bit Logic,OR(
+Bit Logic,NCR
+Bit Logic,ST
+Bit Logic,STN
+Bit Logic,STI
+Bit Logic,S
+Bit Logic,SI
+Bit Logic,S_BLK
+Bit Logic,R
+Bit Logic,RI
+Bit Logic,R_BLK
+Bit Logic,R_TRIG
+Bit Logic,F_TRIG
+Bit Logic,RS
+Bit Logic,SR
+Bit Logic,NOP
+Bit Logic,ALT
+Bit Logic,BCNT
+Move,MOVE
+Move,BLKMOVE
+Move,FILL
+Move,SWAP
+Move,XCH
+Compare,GT
+Compare,GE
+Compare,EQ
+Compare,NE
+Compare,LT
+Compare,LE
+Compare,ZONECMP
+Compare,CMP
+Compare,TIMECMP
+Compare,DATECMP
+Logical Operations,NOT
+Logical Operations,AND
+Logical Operations,ANDN
+Logical Operations,OR
+Logical Operations,ORN
+Logical Operations,XOR
+Shift/Rotate,SHL
+Shift/Rotate,SHL_BLK
+Shift/Rotate,ROL
+Shift/Rotate,WSFL
+Shift/Rotate,SHR
+Shift/Rotate,SHR_BLK
+Shift/Rotate,ROR
+Shift/Rotate,WSFR
+Convert,B_TO_I
+Convert,I_TO_B
+Convert,DI_TO_I
+Convert,I_TO_DI
+Convert,DI_TO_R
+Convert,R_TO_DI
+Convert,BCD_TO_I
+Convert,I_TO_BCD
+Convert,I_TO_A
+Convert,DI_TO_A
+Convert,R_TO_A
+Convert,H_TO_A
+Convert,A_TO_H
+Convert,ENCO
+Convert,DECO
+Convert,SEG
+Convert,TRUNC
+Numeric,ADD
+Numeric,SUB
+Numeric,MUL
+Numeric,DIV
+Numeric,MOD
+Numeric,INC
+Numeric,DEC
+Numeric,SQRT
+NumeriC,LN
+Numeric,LOG
+Numeric,EXP
+Numeric,POW
+Numeric,SIN
+Numeric,COS
+Numeric,TAN
+Numeric,ASIN
+Numeric,ACOS
+Numeric,ATAN
+Numeric,ABS
+Program Control,FOR
+Program Control,NEXT
+Program Control,CAL
+Program Control,JMP
+Program Control,JMPC
+Program Control,JMPCN
+Program Control,RETC
+Program Control,RETCN
+Program Control,END
+Program Control,STOP
+Program Control,WDR
+Interrupt,ENI
+Interrupt,DISI
+Interrupt,ATCH
+Interrupt,DTCH
+Clock,READ_RTC
+Clock,SET_RTC
+Clock,RTC_R
+Clock,RTC_W
+Clock,ELAPSEDTIME
+Communications,XMT
+Communications,RCV
+Communications,MBUSR
+Communications,MBUSW
+Communications,MBUSR2
+Communications,MBUSW2
+Communications,COM_XMT
+Communications,COM_RCV
+Communications,COM_RCV2
+Communications,COM_XMTRCV
+Communications,COM_RESET
+Communications,COM_RPARAS
+Communications,COM_WPARAS
+Counter,CTU
+Counter,CTD
+Counter,CTUD
+Counter,HDEF
+Counter,HSC
+Counter,PLS
+Timer,TON
+Timer,TOF
+Timer,TP
+Timer,TONS
+Timer,TOFS
+Timer,TP_R
+PID,PID
+PID,AT_PID
+Position Control,PHOME
+Position Control,PABS
+Position Control,PREL
+Position Control,PREL_M
+Position Control,PJOG
+Position Control,PJOGA
+Position Control,PJOGFEED
+Position Control,PJOGFEED_I
+Position Control,PSTOP
+Position Control,PFLO_F
+Additional,SPD
+Additional,LINCO
+Additional,CRC16
+Additional,CUS
+Additional,ENAES
+Additional,DEAES
+Additional,UNID_R
+Additional,UNID_W
+SBR,SBR_0
