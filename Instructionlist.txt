@@ -1,164 +1,224 @@
-Kategorie;Befehl;Beschreibung (Kurzform)
-Bit Logic;LD;Load (Kontakt Schließer)
-Bit Logic;LDN;Load Not (Kontakt Öffner)
-Bit Logic;AND;Und-Verknüpfung
-Bit Logic;ANDN;Und-Nicht-Verknüpfung
-Bit Logic;OR;Oder-Verknüpfung
-Bit Logic;ORN;Oder-Nicht-Verknüpfung
-Bit Logic;LDI;Load Immediate
-Bit Logic;LDNI;Load Not Immediate
-Bit Logic;ANDI;And Immediate
-Bit Logic;ANDNI;And Not Immediate
-Bit Logic;ORI;Or Immediate
-Bit Logic;ORNI;Or Not Immediate
-Bit Logic;AND(;Und-Klammer auf
-Bit Logic;OR(;Oder-Klammer auf
-Bit Logic;);Klammer zu
-Bit Logic;NCR;No Connection / Reset
-Bit Logic;ST;Store (Zuweisung/Spule)
-Bit Logic;STN;Store Not (Negierte Spule)
-Bit Logic;STI;Store Immediate
-Bit Logic;S;Set (Setzen)
-Bit Logic;SI;Set Immediate
-Bit Logic;S_BLK;Set Block
-Bit Logic;R;Reset (Rücksetzen)
-Bit Logic;RI;Reset Immediate
-Bit Logic;R_BLK;Reset Block
-Bit Logic;R_TRIG;Rising Edge (Positive Flanke)
-Bit Logic;F_TRIG;Falling Edge (Negative Flanke)
-Bit Logic;RS;Reset-Set Flip-Flop
-Bit Logic;SR;Set-Reset Flip-Flop
-Bit Logic;NOP;No Operation
-Bit Logic;ALT;Alternate (Stromstoßschalter)
-Bit Logic;BCNT;Bit Count
-Move;MOVE;Wert kopieren
-Move;BLKMOVE;Block kopieren
-Move;FILL;Speicher füllen
-Move;SWAP;Bytes tauschen
-Move;XCH;Werte austauschen
-Compare;GT;Greater Than (>)
-Compare;GE;Greater Equal (>=)
-Compare;EQ;Equal (=)
-Compare;NE;Not Equal (<>)
-Compare;LT;Less Than (<)
-Compare;LE;Less Equal (<=)
-Compare;ZONECMP;Zonen-Vergleich
-Compare;CMP;Vergleich (Allgemein)
-Compare;TIMECMP;Zeit-Vergleich
-Compare;DATECMP;Datum-Vergleich
-Logical Operations;NOT;Negierung
-Logical Operations;AND;Bitweises UND
-Logical Operations;ANDN;Bitweises UND-NICHT
-Logical Operations;OR;Bitweises ODER
-Logical Operations;ORN;Bitweises ODER-NICHT
-Logical Operations;XOR;Exklusiv-ODER
-Shift/Rotate;SHL;Shift Left
-Shift/Rotate;SHL_BLK;Shift Left Block
-Shift/Rotate;ROL;Rotate Left
-Shift/Rotate;ROL_BLK;Rotate Left Block
-Shift/Rotate;WSFL;Word Shift Left
-Shift/Rotate;SHR;Shift Right
-Shift/Rotate;SHR_BLK;Shift Right Block
-Shift/Rotate;ROR;Rotate Right
-Shift/Rotate;ROR_BLK;Rotate Right Block
-Shift/Rotate;WSFR;Word Shift Right
-Convert;B_TO_I;Byte zu Integer
-Convert;I_TO_B;Integer zu Byte
-Convert;DI_TO_I;Double Integer zu Integer
-Convert;I_TO_DI;Integer zu Double Integer
-Convert;DI_TO_R;Double Integer zu Real
-Convert;R_TO_DI;Real zu Double Integer
-Convert;BCD_TO_I;BCD zu Integer
-Convert;I_TO_BCD;Integer zu BCD
-Convert;I_TO_A;Integer zu ASCII
-Convert;DI_TO_A;Double Integer zu ASCII
-Convert;R_TO_A;Real zu ASCII
-Convert;H_TO_A;Hex zu ASCII
-Convert;A_TO_H;ASCII zu Hex
-Convert;ENCO;Encode
-Convert;DECO;Decode
-Convert;SEG;7-Segment-Dekodierung
-Convert;TRUNC;Abschneiden (Real zu Int)
-Numeric;ADD;Addition
-Numeric;SUB;Subtraktion
-Numeric;MUL;Multiplikation
-Numeric;DIV;Division
-Numeric;MOD;Modulo (Restwert)
-Numeric;INC;Inkrementieren (+1)
-Numeric;DEC;Dekrementieren (-1)
-Numeric;SQRT;Wurzel ziehen
-Numeric;LN;Natürlicher Logarithmus
-Numeric;LOG;Logarithmus
-Numeric;EXP;Exponentialfunktion
-Numeric;POW;Potenzfunktion
-Numeric;SIN;Sinus
-Numeric;COS;Cosinus
-Numeric;TAN;Tangens
-Numeric;ASIN;Arcus Sinus
-Numeric;ACOS;Arcus Cosinus
-Numeric;ATAN;Arcus Tangens
-Numeric;ABS;Absolutwert
-Array;A_READ;Array lesen
-Array;A_WRITE;Array schreiben
-Array;A_FILL;Array füllen
-Array;A_GETSIZE;Arraygröße ermitteln
-Array;A_SETSIZE;Arraygröße setzen
-Array;A_GETTYPE;Arraytyp ermitteln
-Array;A_SETTYPE;Arraytyp setzen
-Array;A_MIN;Minimum im Array
-Array;A_MAX;Maximum im Array
-Array;A_AVE;Durchschnitt im Array
-Array;A_SUM;Summe des Arrays
-Array;A_SORT;Array sortieren
-FIFO/LIFO;FIFO_INIT;FIFO initialisieren
-FIFO/LIFO;FIFO_PUSH;Wert in FIFO schieben
-FIFO/LIFO;FIFO_POP;Wert aus FIFO holen
-FIFO/LIFO;FIFO_SIZE;FIFO Füllstand
-FIFO/LIFO;LIFO_INIT;LIFO initialisieren
-FIFO/LIFO;LIFO_PUSH;Wert auf Stack legen
-FIFO/LIFO;LIFO_POP;Wert von Stack holen
-FIFO/LIFO;LIFO_SIZE;LIFO Füllstand
-Program Control;FOR;Schleifenbeginn
-Program Control;NEXT;Schleifenende
-Program Control;CAL;Unterprogrammaufruf
-Program Control;JMP;Sprung
-Program Control;JMPC;Bedingter Sprung
-Program Control;JMPCN;Bedingter Sprung (Negiert)
-Program Control;RETC;Bedingter Rücksprung
-Program Control;RETCN;Bedingter Rücksprung (Negiert)
-Program Control;END;Programmende
-Program Control;STOP;SPS Stop
-Program Control;WDR;Watchdog Reset
-Interrupt;ENI;Interrupt Freigabe
-Interrupt;DISI;Interrupt Sperre
-Interrupt;ATCH;Interrupt anlagern
-Interrupt;DTCH;Interrupt trennen
-Clock;READ_RTC;Uhrzeit lesen
-Clock;SET_RTC;Uhrzeit setzen
-Clock;RTC_R;Echtzeituhr Lesen
-Clock;RTC_W;Echtzeituhr Schreiben
-Clock;ELAPSEDTIME;Verstrichene Zeit
-CAN;SDO_WRITE;CAN SDO Schreiben
-CAN;SDO_READ;CAN SDO Lesen
-CAN;CO_STATE;CAN Status
-CAN;CO_RESTART;CAN Neustart
-CAN;CAN_INIT;CAN Initialisierung
-CAN;CAN_TX;CAN Senden
-CAN;CAN_RX;CAN Empfangen
-ETHERNET;TCP_CLIENT;TCP Client Aufbau
-ETHERNET;TCP_SERVER;TCP Server Aufbau
-ETHERNET;UDP_PEER;UDP Verbindung
-Counter;CTU;Aufwärtszähler
-Counter;CTD;Abwärtszähler
-Counter;CTUD;Auf-Abwärtszähler
-Timer;TON;Einschaltverzögerung
-Timer;TOF;Ausschaltverzögerung
-Timer;TP;Impulsgeber
-PID;PID;PID-Regler
-PID;AT_PID;Auto-Tuning PID
-Motion Control;MC_POWER;Achse freigeben
-Motion Control;MC_RESET;Achse quittieren
-Motion Control;MC_HOME;Referenzfahrt
-Motion Control;MC_JOG;Tippbetrieb
-Position Control;PABS;Absolute Positionierung
-Position Control;PREL;Relative Positionierung
+Category,Instruction
+Bit Logic,LD
+Bit Logic,LDN
+Bit Logic,AND
+Bit Logic,ANDN
+Bit Logic,OR
+Bit Logic,ORN
+Bit Logic,LDI
+Bit Logic,ANDI
+Bit Logic,ANDNI
+Bit Logic,ORI
+Bit Logic,ORNI
+Bit Logic,AND(
+Bit Logic,OR(
+Bit Logic,)
+Bit Logic,NCR
+Bit Logic,ST
+Bit Logic,STN
+Bit Logic,STI
+Bit Logic,SI
+Bit Logic,S_BLK
+Bit Logic,R
+Bit Logic,RI
+Bit Logic,R_BLK
+Bit Logic,R_TRIG
+Bit Logic,F_TRIG
+Bit Logic,RS
+Bit Logic,SR
+Bit Logic,NOP
+Bit Logic,ALT
+Bit Logic,BCNT
+Move,MOVE
+Move,BLKMOVE
+Move,FILL
+Move,SWAP
+Move,XCH
+Compare,GT
+Compare,GE
+Compare,NE
+Compare,LT
+Compare,LE
+Compare,ZONECMP
+Compare,CMP
+Compare,TIMECMP
+Compare,DATECMP
+Logical Operations,NOT
+Logical Operations,AND
+Logical Operations,ANDN
+Logical Operations,OR
+Logical Operations,ORN
+Logical Operations,XOR
+Shift/Rotate,SHL
+Shift/Rotate,SHL_BLK
+Shift/Rotate,ROL
+Shift/Rotate,ROL_BLK
+Shift/Rotate,WSFL
+Shift/Rotate,SHR
+Shift/Rotate,SHR_BLK
+Shift/Rotate,ROR
+Shift/Rotate,ROR_BLK
+Shift/Rotate,WSFR
+Convert,B_TO_I
+Convert,I_TO_B
+Convert,DI_TO_I
+Convert,I_TO_DI
+Convert,DI_TO_R
+Convert,R_TO_DI
+Convert,BCD_TO_I
+Convert,I_TO_BCD
+Convert,L_TO_A
+Convert,DL_TO_A
+Convert,R_TO_A
+Convert,H_TO_A
+Convert,A_TO_H
+Convert,ENCO
+Convert,DECO
+Convert,SEG
+Convert,TRUNC
+Numeric,ADD
+Numeric,SUB
+Numeric,MUL
+Numeric,DIV
+Numeric,MOD
+Numeric,INC
+Numeric,DEC
+Numeric,SQRT
+Numeric,LN
+Numeric,LOG
+Numeric,EXP
+Numeric,POW
+Numeric,SIN
+Numeric,COS
+Numeric,TAN
+Numeric,ASIN
+Numeric,ACOS
+Numeric,ATAN
+Numeric,ABS
+Array,A_READ
+Array,A_WRITE
+Array,A_FILL
+Array,A_GETSIZE
+Array,A_SETSIZE
+Array,A_GETTYPE
+Array,A_SETTYPE
+Array,A_MIN
+Array,A_MAX
+Array,A_AVE
+Array,A_SUM
+Array,A_SORT
+FIFO/LIFO,FIFO_INIT
+FIFO/LIFO,FIFO_PUSH
+FIFO/LIFO,FIFO_POP
+FIFO/LIFO,FIFO_SIZE
+FIFO/LIFO,LIFO_INIT
+FIFO/LIFO,LIFO_PUSH
+FIFO/LIFO,LIFO_POP
+FIFO/LIFO,LIFO_SIZE
+Program Control,FOR
+Program Control,NEXT
+Program Control,CAL
+Program Control,JMP
+Program Control,JMPC
+Program Control,JMPCN
+Program Control,RETC
+Program Control,RETCN
+Program Control,END
+Program Control,STOP
+Program Control,WDR
+Interrupt,ENI
+Interrupt,DISI
+Interrupt,ATCH
+Interrupt,DTCH
+Clock,READ_RTC
+Clock,SET_RTC
+Clock,RTC_R
+Clock,RTC_W
+Clock,ELAPSEDTIME
+CAN,SDO_WRITE
+CAN,SDO_READ
+CO_STATE,CO_STATE
+CO_STATE,CO_RESTART
+CAN,CAN_INIT
+CAN,CAN_TX
+CAN,CAN_RX
+CAN,CAN_READ
+CAN,CAN_WRITE
+EX_ADDR,EX_ADDR
+ETHERNET,TCP_CLIENT
+ETHERNET,TCPC_XMT
+ETHERNET,TCPC_RCV
+ETHERNET,TCPC_XMTRCV
+ETHERNET,TCP_SERVER
+ETHERNET,TCPS_XMT
+ETHERNET,TCPS_RCV
+ETHERNET,TCPS_XMTRCV
+ETHERNET,TCPS_CLOSE
+ETHERNET,UDP_PEER
+ETHERNET,UDP_XMT
+ETHERNET,UDP_RCV
+ETHERNET,UDP_XMTRCV
+ETHERNET,TCP_MBUSR
+ETHERNET,TCP_MBUSW
+ETHERNET,ETH_STATUS
+ETHERNET,ETH_RESET
+ETHERNET,ETH_RPARAS
+ETHERNET,ETH_WPARAS
+Communications,XMT
+Communications,RCV
+Communications,MBUSR
+Communications,MBUSW
+Communications,MBUSR2
+Communications,MBUSW2
+Communications,SPS_SLAVE
+Communications,SPS_MSLAVE
+Communications,SPS_SLV_OP
+Communications,COM_XMT
+Communications,COM_RCV
+Communications,COM_XMTRCV
+Communications,COM_RESET
+Communications,COM_RPARAS
+Communications,COM_WPARAS
+Counter,CTU
+Counter,CTD
+Counter,CTUD
+Counter,HDEF
+Counter,HSC
+Counter,PLS
+Timer,TON
+Timer,TOF
+Timer,TP
+Timer,TONS
+Timer,TOFS
+Timer,TP_R
+PID,PID
+PID,AT_PID
+Position Control,PHOME
+Position Control,PABS
+Position Control,PREL
+Position Control,PREL_M
+Position Control,PJOG
+Position Control,PJOGFEED
+Position Control,PJOGFEED_I
+Position Control,PSTOP
+Position Control,PFLO_F
+Motion Control,MC_POWER
+Motion Control,MC_RESET
+Motion Control,MC_HOME
+Motion Control,MC_JOG
+Motion Control,MC_MABS
+Motion Control,MC_MABSE
+Motion Control,MC_MREL
+Motion Control,MC_STATE
+Motion Control,MC_RPARAS
+Motion Control,MC_WPARAS
+Motion Control,MC_RESTART
+additional,SPD
+additional,LINCO
+additional,TC_EXTCOMP
+additional,CRC16
+additional,CUS
+additional,ENAES
+additional,DEAES
+additional,UNID_R
+additional,UNID_W
